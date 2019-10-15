@@ -34,6 +34,8 @@ android {
         }
     }
 
+    //限定资源前缀，只能约束xml
+    //resourcePrefix "login_"
 }
 
 dependencies {
