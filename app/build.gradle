@@ -38,8 +38,6 @@ dependencies {
 
     implementation project(':base')
 
-//    runtimeOnly project(':login')
-//    runtimeOnly project(':share')
-    implementation project(':login')
-    implementation project(':share')
+    runtimeOnly project(':login')
+    runtimeOnly project(':share')
 }
