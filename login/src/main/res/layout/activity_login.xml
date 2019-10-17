@@ -43,4 +43,13 @@
         android:onClick="loginShare"
         android:text="去分享组件" />
 
+
+    <Button
+        android:id="@+id/btn_login_share_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="shareTest"
+        android:text="分享组件方法调用测试" />
+
 </LinearLayout>
