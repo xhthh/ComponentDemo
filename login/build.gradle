@@ -46,6 +46,13 @@ android {
 
     //限定资源前缀，只能约束xml
     //resourcePrefix "login_"
+
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
 }
 
 dependencies {
@@ -61,4 +68,6 @@ dependencies {
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
 
     api project(':base')
+
+    //implementation(name:'share-release',ext:'aar')
 }

@@ -13,6 +13,10 @@ public class LoginApp extends BaseApp {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        //test 在组件单独运行时，且需要与其他组件进行通信时，初始化ARouter，并且引用其他组件的aar
+        //ARouter.init(this);
+
         initModuleApp(this);
         initModuleData(this);
     }
